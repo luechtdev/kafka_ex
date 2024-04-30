@@ -45,7 +45,7 @@ defmodule KafkaEx.Mixfile do
 
   defp deps do
     [
-      {:kayrock, "~> 0.1"},
+      {:kayrock, git: "https://github.com/luechtdev/kayrock"},
       {:nimble_lz4, "~> 0.1.0"},
       {:credo, "~> 1.1", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.4", only: :dev, runtime: false},
